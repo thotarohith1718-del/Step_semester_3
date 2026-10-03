@@ -1,8 +1,6 @@
-package week8practice;
-
 import java.util.*;
 
-public class q5 {
+public class Main {
     public static int findSlot(int[] prices, int newPrice) {
         int low = 0;
         int high = prices.length - 1;
